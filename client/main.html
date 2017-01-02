@@ -1,0 +1,18 @@
+<head>
+  <title>meteor_demo1 | Resolution</title>
+</head>
+
+<body>
+  <h1>Hello Resolution App</h1>
+
+  <ul>
+    {{#each resolutions}}
+      {{> resolution}}
+    {{/each}}
+  </ul>
+
+</body>
+
+<template name="resolution">
+  <li>{{title}}</li>
+</template>
